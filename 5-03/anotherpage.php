@@ -3,6 +3,7 @@
         echo 'User '. $_COOKIE['username'] . ' is set<br>';
     } else {
         echo 'User is not set';
+		header('Refresh:1; url=index.php');
     }
 ?>
 
